@@ -8,8 +8,8 @@ https://docs.djangoproject.com/en/1.6/howto/deployment/wsgi/
 """
 
 import os, sys
-sys.path.append('/opt/bitnami/apps/django/django_projects/rural')
-os.environ.setdefault("PYTHON_EGG_CACHE", "/opt/bitnami/apps/django/django_projects/rural/egg_cache")
+sys.path.append('/opt/bitnami/apps/django/django_projects/rural-sustentavel')
+os.environ.setdefault("PYTHON_EGG_CACHE", "/opt/bitnami/apps/django/django_projects/rural-sustentavel/egg_cache")
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "rural.settings")
 
